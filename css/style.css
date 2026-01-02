@@ -66,10 +66,16 @@ body {
 }
 
 .avatar {
-    height: min(100%, 6.25rem);
-    width: min(100%, 6.25rem);
-    margin: 0 auto 32px auto;
-    border-radius: 50%;
+  height: min(100%, 6.25rem);
+  width: min(100%, 6.25rem);
+  margin: 0 auto 32px auto;
+  border-radius: 50%;
+}
+
+.screen-reader-only {
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 50rem) {
