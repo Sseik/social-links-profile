@@ -42,7 +42,7 @@ function followLink() {
 }
 
 document.addEventListener("keydown", (e) => {
-  let pressedKey = e.key;
+  const pressedKey = e.key;
   switch (pressedKey) {
     case "Enter":
       followLink();
