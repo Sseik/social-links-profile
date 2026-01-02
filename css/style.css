@@ -33,16 +33,13 @@ body {
   margin-top: 1rem;
   border-radius: 8px;
   display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
 }
 
 .social-links li {
   height: auto;
-}
-
-.social-link {
-  text-decoration: none;
-  color: white;
-  font-weight: 700;
 }
 
 .social-link:hover,
