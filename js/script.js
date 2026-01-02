@@ -15,7 +15,7 @@ function selectPreviousLink() {
 }
 
 function unfocusOnLink() {
-  if (currentLink != null) {
+  if (currentLink !== null) {
     currentLink.classList.remove("selected");
   }
 }
@@ -23,7 +23,7 @@ function unfocusOnLink() {
 function focusOnLink() {
   unfocusOnLink();
   currentLink = socialLinksList.children[linkIndex].children[0];
-  if (currentLink != null) {
+  if (currentLink !== null) {
     currentLink.classList.add("selected");
   }
 }
@@ -35,7 +35,7 @@ function unselectLinks() {
 }
 
 function followLink() {
-  if (currentLink == null) {
+  if (currentLink === null) {
     return;
   }
   currentLink.click();
